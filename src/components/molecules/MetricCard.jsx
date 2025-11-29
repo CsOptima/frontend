@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const MetricCard = ({ title, score, description }) => {
+export const MetricCard = ({ title, score, description, p1, p2}) => {
   
   // Функция выбора цвета в зависимости от баллов
   const getGradientByScore = (val) => {
@@ -55,8 +55,8 @@ export const MetricCard = ({ title, score, description }) => {
         <div className="mt-auto pt-4 border-t border-white/5">
           <p className="text-xs text-gray-500 mb-2 uppercase tracking-wider font-bold">Мы проверяем:</p>
           <ul className="list-disc list-inside text-sm text-gray-400 space-y-1">
-            <li>Пункт проверки 1</li>
-            <li>Пункт проверки 2</li>
+            <li>{p1}</li>
+            <li>{p2}</li>
           </ul>
         </div>
       </div>
