@@ -1,4 +1,4 @@
-export const BACKEND_IP = "172.20.10.3";
+export const BACKEND_IP = "http://127.0.0.1";
 
 export const LOADING_PHRASES = [
   '"Вскрытие" скелета и "промывка" смыслов...',
